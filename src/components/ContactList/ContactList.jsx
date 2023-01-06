@@ -1,4 +1,6 @@
 import PropTypes from 'prop-types';
+import { motion } from 'framer-motion';
+import React from 'react';
 import { List, ListItem, ListDeleteButton } from './ContactList.styled';
 import { deleteContact } from 'redux/operations';
 import { useDispatch, useSelector } from 'react-redux';
