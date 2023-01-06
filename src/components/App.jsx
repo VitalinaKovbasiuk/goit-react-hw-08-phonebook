@@ -11,13 +11,11 @@ import { refreshUser } from 'redux/auth/operations';
 import { useAuth } from 'hooks';
 
 import { useDispatch } from 'react-redux';
-import { AppContainer } from 'App.styled.jsx';
-const HomePage = lazy(() => import('./components/pages/Home/Home'));
-const RegisterPage = lazy(() => import('./components/pages/Register/Register'));
-const LoginPage = lazy(() => import('./components/pages/Login/Login'));
-const ContactsPage = lazy(() =>
-  import('./components/pages/Contacts/ContactsPage')
-);
+import { AppContainer } from './App.styled';
+const HomePage = lazy(() => import('.//pages/Home/Home'));
+const RegisterPage = lazy(() => import('.//pages/Register/Register'));
+const LoginPage = lazy(() => import('.//pages/Login/Login'));
+const ContactsPage = lazy(() => import('./pages/Contacts/ContactsPage'));
 
 export default function App() {
   const dispatch = useDispatch();

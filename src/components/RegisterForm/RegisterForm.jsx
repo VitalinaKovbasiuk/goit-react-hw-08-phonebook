@@ -25,18 +25,20 @@ export const RegisterForm = () => {
   return (
     <Form onSubmit={handleSubmit} autoComplete="off">
       <LabelLogin>
-        Username
+        <b> Username</b>
         <Input type="text" name="name" />
       </LabelLogin>
       <LabelLogin>
-        Email
+        <b>Email</b>
         <Input type="email" name="email" />
       </LabelLogin>
       <LabelLogin>
-        Password
+        <b> Password</b>
         <Input type="password" name="password" />
       </LabelLogin>
-      <ButtonLogout type="submit">Register</ButtonLogout>
+      <ButtonLogout type="submit">
+        <b> Register</b>
+      </ButtonLogout>
     </Form>
   );
 };

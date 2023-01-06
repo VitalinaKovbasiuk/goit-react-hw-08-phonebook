@@ -1,4 +1,4 @@
-#light > div {
+/* #light > div {
   background-color: white;
   color: black;
 }
@@ -23,7 +23,7 @@ html {
   display: flex;
   flex-direction: column;
   height: 100%;
-}
+} */
 
 /* body {
   display: flex;
@@ -55,7 +55,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(270deg, #32c1c1, #0c3b69);
+  background: linear-gradient(270deg, #d0afdc, #473457);
 }
 
 

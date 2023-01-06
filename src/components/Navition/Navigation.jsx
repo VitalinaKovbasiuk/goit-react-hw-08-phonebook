@@ -7,7 +7,9 @@ export default function Navigation() {
 
   return (
     <nav>
-      <HeaderLink to="/">PhoneBook</HeaderLink>
+      <HeaderLink to="/">
+        <b>Home</b>
+      </HeaderLink>
       {isLoggedIn && <HeaderLink to="/contacts">Contacts</HeaderLink>}
     </nav>
   );
