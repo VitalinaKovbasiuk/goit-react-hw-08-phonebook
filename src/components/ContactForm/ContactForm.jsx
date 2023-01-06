@@ -39,13 +39,12 @@ export default function ContactForm() {
     const contact = {
       name,
       number,
-      id: nanoid(),
+      // id: nanoid(),
     };
 
     const checkContact = contacts.some(
       contact => contact.name.toLowerCase() === name.toLowerCase()
     );
-
     checkContact
       ? alert(`${name} is already in contact`)
       : dispatch(addContact(contact));

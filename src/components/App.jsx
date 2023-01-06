@@ -3,6 +3,7 @@ import ContactForm from './ContactForm/ContactForm';
 import ContactList from './ContactList/ContactList';
 import Filter from './Filter/Filter';
 import { Section } from './App.styled';
+
 import { fetchContacts } from 'redux/operations';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
