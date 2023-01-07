@@ -7,7 +7,8 @@ export const List = styled.ul`
 
 export const ListItem = styled.li`
   display: flex;
-  align-items: baseline; ;
+  align-items: baseline;
+  margin-top: 10px;
 `;
 
 export const ListDeleteButton = styled.button`
@@ -19,7 +20,7 @@ export const ListDeleteButton = styled.button`
   text-transform: uppercase;
 
   font-size: 14px;
-  margin-left: 26px;
+  margin-left: auto;
 
   // margin-right: 15px;
   background-color: rgb(243, 161, 242, 0.5);

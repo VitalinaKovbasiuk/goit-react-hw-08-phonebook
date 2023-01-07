@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const AppContainer = styled.div`
   max-height: 510px;
   min-width: 350px;
-  margin-top: 15px;
+  margin-top: 50%;
   margin-left: 15px;
   margin-right: 15px;
   padding: 15px;

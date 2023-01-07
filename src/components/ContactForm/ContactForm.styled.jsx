@@ -27,7 +27,7 @@ export const FormButton = styled.button`
   border-radius: 10px;
   max-height: 65px;
   text-transform: uppercase;
-
+  margin-bottom: 25px;
   font-size: 16px;
 
   background-color: rgb(243, 161, 242, 0.5);
